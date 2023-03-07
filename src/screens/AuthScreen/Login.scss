@@ -14,6 +14,10 @@ $flap: #1DAB87;
     height: 100vh;
     width: 100%;
 
+    .signup_green_text {
+        color: $flap;
+    }
+
     .auth_section_box {
         width: 90%;
         margin-left: auto;
@@ -38,9 +42,9 @@ $flap: #1DAB87;
         line-height: 34px;
         padding-bottom: 8px;
 
-        // .auth_text_main {
-        //     color: $flap;
-        // }
+        .auth_text_main {
+            color: $flap;
+        }
     }
 
     .auth_sub_text {
@@ -103,7 +107,7 @@ $flap: #1DAB87;
         font-family: 'Roboto', sans-serif;
         color: $primary;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 700;
         text-align: center;
         display: block;
     }

@@ -1,0 +1,56 @@
+$primary: #1E3D73;
+$secondary: #00833F;
+$background: #F1F5F9;
+$fontcolor: #36597D;
+$flap: #1DAB87;
+
+.pincode-input-container {
+    text-align: center;
+    align-items: center !important;
+
+    .pincode-input-text {
+        border: none !important;
+        width: 45px !important;
+        height: 45px !important;
+        margin: 0 5px !important;
+        border-radius: 8px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .pincode-input-text:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+.resend_text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: $flap;
+}
+
+@media only screen and (max-width: 576px) {
+    .pincode-input-container {
+        text-align: center;
+        align-items: center !important;
+
+        .pincode-input-text {
+            width: 40px !important;
+            height: 40px !important;
+            margin: 0 5px !important;
+        }
+
+        .pincode-input-text:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
