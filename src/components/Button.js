@@ -5,7 +5,8 @@ export const Button = ({
 }) => {
     return (
         <>
-            <button className='button'>{title}</button>
+            {/* <button className='button'>{title}</button> */}
+            <button className='btn btn-primary button' type="button">Button</button>
         </>
     )
 }
