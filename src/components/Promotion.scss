@@ -1,0 +1,56 @@
+$primary: #1E3D73;
+$secondary: #00833F;
+$background: #F1F5F9;
+$fontcolor: #36597D;
+$flap: #1DAB87;
+
+
+.promotion_section_block {
+    margin-top: 200px;
+
+    .promotion_image_container {
+        position: relative;
+
+        .promotion_image {
+            position: absolute;
+            right: 0 !important;
+            clear: both;
+            top: -186px;
+            width: 500px;
+        }
+    }
+
+    .promotion_section {
+        background-color: $primary;
+
+        h1 {
+            color: #F1F5F9;
+            font-size: 48px;
+            line-height: 58px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        p {
+            color: #F1F5F9;
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+        }
+
+        .btn {
+            border-radius: 30px;
+            background-color: $secondary;
+            border: none;
+            outline: none;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+            &:hover {
+                cursor: pointer;
+                box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            }
+        }
+    }
+}
